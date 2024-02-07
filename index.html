@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <script src="./js/includeHTML.js"></script>
+
 </head>
+
 <body>
-  <h1>Mijn Blog</h1>
+  <h1>Mijn Blogs</h1>
+
+  <article include-html="posts/post1.html"></article>
+  <article include-html="posts/post2.html"></article>
+  <article include-html="posts/post3.html"></article>
+  <article include-html="posts/post4.html"></article>
+  <article include-html="posts/post5.html"></article>
+  <article include-html="posts/post6.html"></article>
+  <article include-html="posts/post7.html"></article>
+  <article include-html="posts/post8.html"></article>
+  <article include-html="posts/post9.html"></article>
+
+  <!-- Hier worden alle includes ingevuld -->
+  <script>includeHTML();</script>
+
 </body>
+
 </html>
